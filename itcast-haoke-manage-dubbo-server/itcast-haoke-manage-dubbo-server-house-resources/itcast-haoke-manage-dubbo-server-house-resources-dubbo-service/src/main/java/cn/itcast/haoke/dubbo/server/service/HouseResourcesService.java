@@ -1,6 +1,7 @@
 package cn.itcast.haoke.dubbo.server.service;
 
 import cn.itcast.haoke.dubbo.server.pojo.HouseResources;
+import cn.itcast.haoke.dubbo.server.vo.PageInfo;
 
 public interface HouseResourcesService {
 
@@ -11,4 +12,5 @@ public interface HouseResourcesService {
      */
     int saveHouseResources(HouseResources houseResources);
 
+    PageInfo<HouseResources> queryHouseResourcesList(int page, int pageSize, HouseResources queryCondition);
 }
