@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 @Service
-public class HouseResourcesServiceImpl extends BaseServiceImpl implements HouseResourcesService {
+public class HouseResourcesServiceImpl extends BaseServiceImpl<HouseResources> implements HouseResourcesService {
 
     /**
      * @param houseResources
@@ -33,10 +33,15 @@ public class HouseResourcesServiceImpl extends BaseServiceImpl implements HouseR
 
     @Override
     public PageInfo<HouseResources> queryHouseResourcesList(int page, int pageSize, HouseResources queryCondition) {
-        QueryWrapper<Object> queryWrapper = new QueryWrapper<>(queryCondition);
+        QueryWrapper<HouseResources> queryWrapper = new QueryWrapper<>(queryCondition);
         queryWrapper.orderByDesc("updated");
         IPage iPage = super.queryPageList(queryWrapper, page, pageSize);
         return new PageInfo<HouseResources>
                 (Long.valueOf(iPage.getTotal()).intValue() , page, pageSize, iPage.getRecords());
+    }
+
+    @Override
+    public HouseResources queryHouseResourcesById(Long id) {
+        return super.queryById(id);
     }
 }

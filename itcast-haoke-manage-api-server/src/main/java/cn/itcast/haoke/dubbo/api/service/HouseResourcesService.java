@@ -25,4 +25,8 @@ public class HouseResourcesService {
                 queryHouseResourcesList(currentPage, pageSize, houseResources);
         return new TableResult(pageInfo.getRecords(),new Pagination(currentPage, pageSize, pageInfo.getTotal()));
     }
+
+    public HouseResources queryHouseResources(Long id) {
+        return this.apiHouseResourcesService.queryHouseResourcesById(id);
+    }
 }

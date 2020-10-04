@@ -25,14 +25,33 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8026b093-6a53-40cd-8d05-f07cc7f29a9c" name="Default Changelist" comment="dubbo分页查询业务">
-      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/vo/TableResult.java" afterDir="false" />
+    <list default="true" id="8026b093-6a53-40cd-8d05-f07cc7f29a9c" name="Default Changelist" comment="分页查询">
+      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/GraphQLController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/GraphQLProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/HouseResourceDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/HouseResourceListDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/MyDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/haoke.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/HouseResourcesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/controller/HouseResourcesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/HouseResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/service/HouseResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/target/classes/cn/itcast/haoke/dubbo/api/controller/HouseResourcesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/target/classes/cn/itcast/haoke/dubbo/api/controller/HouseResourcesController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-api-server/target/classes/cn/itcast/haoke/dubbo/api/service/HouseResourcesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-api-server/target/classes/cn/itcast/haoke/dubbo/api/service/HouseResourcesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/target/classes/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-interface/target/classes/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/service/HouseResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/service/HouseResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/service/impl/HouseResourcesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/java/cn/itcast/haoke/dubbo/server/service/impl/HouseResourcesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/cn/itcast/haoke/dubbo/server/api/ApiHouseResourcesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/cn/itcast/haoke/dubbo/server/service/HouseResourcesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/cn/itcast/haoke/dubbo/server/service/HouseResourcesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/cn/itcast/haoke/dubbo/server/service/impl/HouseResourcesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/itcast-haoke-manage-dubbo-server-house-resources/itcast-haoke-manage-dubbo-server-house-resources-dubbo-service/target/classes/cn/itcast/haoke/dubbo/server/service/impl/HouseResourcesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast-haoke-manage-dubbo-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +86,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.haoke.dubbo.api.graphql" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\itcast-haoke-manage\itcast-haoke-manage-api-server\src\main\resources" />
       <recent name="E:\itcast-haoke-manage\itcast-haoke-manage" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DubboProvider">
+  <component name="RunManager" selected="Spring Boot.DubboApiApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.itcast.haoke.generator.CodeGenerator" />
       <module name="itcast-haoke-manage-dubbo-server-generator" />
@@ -141,7 +164,8 @@
       <workItem from="1601543842102" duration="21254000" />
       <workItem from="1601634448894" duration="516000" />
       <workItem from="1601634991338" duration="4292000" />
-      <workItem from="1601643641018" duration="10945000" />
+      <workItem from="1601643641018" duration="14341000" />
+      <workItem from="1601727095440" duration="8419000" />
     </task>
     <task id="LOCAL-00001" summary="基本增删改">
       <created>1601635120892</created>
@@ -171,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601696886519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="分页查询">
+      <created>1601703649034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601703649034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,13 +230,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本增删改" />
     <MESSAGE value="zk配置文件已修改" />
     <MESSAGE value="阿里oss解决图片上传问题" />
     <MESSAGE value="dubbo分页查询业务" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo分页查询业务" />
+    <MESSAGE value="分页查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="分页查询" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1601696546681">
@@ -217,10 +250,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="469" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601544842036" />
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1601696682658">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1601785296075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601696682658" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601785296075" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601693783899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,82 +262,100 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601635050488" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1601703562832">
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1601792724007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562832" />
+    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724007" />
     <state width="1397" height="443" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891293" />
     <state width="1493" height="122" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601543819608" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1601703562831">
+    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1601792724007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562831" />
+    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724007" />
     <state width="1397" height="443" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891292" />
     <state width="1493" height="122" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601543819608" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1601703562831">
+    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1601792724006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562831" />
+    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724006" />
     <state width="1397" height="443" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891292" />
     <state width="1493" height="122" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601543819608" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1601703562831">
+    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1601792724007">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562831" />
+    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724007" />
     <state width="1397" height="443" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891293" />
     <state width="1493" height="122" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601543819608" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1601703562832">
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom" timestamp="1601792724009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562832" />
+    <state width="1493" height="245" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724009" />
     <state width="1397" height="443" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891293" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1601703562832">
+    <state width="1493" height="245" key="GridCell.Tab.1.center" timestamp="1601792724008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562832" />
+    <state width="1493" height="245" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724008" />
     <state width="1397" height="443" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891293" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1601703562832">
+    <state width="1493" height="245" key="GridCell.Tab.1.left" timestamp="1601792724008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562832" />
+    <state width="1493" height="245" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724008" />
     <state width="1397" height="443" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891293" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1601703562832">
+    <state width="1493" height="245" key="GridCell.Tab.1.right" timestamp="1601792724008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601703562832" />
+    <state width="1493" height="245" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601792724008" />
     <state width="1397" height="443" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601617891293" />
-    <state width="1493" height="299" key="GridCell.Tab.2.bottom" timestamp="1601634214192">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1601791145906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601634214192" />
-    <state width="1493" height="299" key="GridCell.Tab.2.center" timestamp="1601634214191">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601791145906" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1601791145906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601634214191" />
-    <state width="1493" height="299" key="GridCell.Tab.2.left" timestamp="1601634214191">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601791145906" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1601791145906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601634214191" />
-    <state width="1493" height="299" key="GridCell.Tab.2.right" timestamp="1601634214192">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601791145906" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1601791145906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="299" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601634214192" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601791145906" />
     <state x="0" y="132" key="RollbackChangesDialog" timestamp="1601694027899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="132" key="RollbackChangesDialog/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601694027899" />
-    <state x="233" y="58" width="996" height="707" key="SettingsEditor" timestamp="1601635572863">
+    <state x="233" y="58" width="996" height="707" key="SettingsEditor" timestamp="1601781102418">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="233" y="58" width="996" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601635572863" />
+    <state x="233" y="58" width="996" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601781102418" />
     <state x="2141" y="74" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1601613862875" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601635309286">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601635309286" />
+    <state x="178" y="73" key="new project wizard" timestamp="1601711299544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="73" key="new project wizard/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601711299544" />
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601629793355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1601629793355" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/itcast-haoke-manage-api-server/src/main/java/cn/itcast/haoke/dubbo/api/graphql/GraphQLProvider.java</url>
+          <line>50</line>
+          <properties>
+            <option name="lambda-ordinal" value="1" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
